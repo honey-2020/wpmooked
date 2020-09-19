@@ -1,0 +1,66 @@
+*{ 
+    margin:0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    box-sizing: border-box; 
+    font-family: 'Nunito Sans', sans-serif;
+    outline: none;
+  }
+  /* alcune regole personali */
+
+  .pad-l{
+    padding-left: 20px;
+  }
+
+  /* fine */
+  a{
+      text-decoration: none;
+  }
+
+  .top-nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+    flex-wrap: wrap;
+
+    background-color: #C4C4C4;
+    font-size: 20px;
+  }
+  .link-nav{
+    display: flex; 
+    align-items: center;
+  }
+
+  .nav-a a{
+    color: black;
+    margin-left: 20px;
+  }
+  .nav-a a:hover{
+    color: rgb(53, 53, 53);
+  }
+  
+  .search-bar input[type=text] {
+    padding: 6px;
+  }
+  .search-bar button{
+    padding: 6px 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color:  #C4C4C4;
+  }
+  
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
