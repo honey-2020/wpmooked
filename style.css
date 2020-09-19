@@ -55,12 +55,11 @@
     color: white;
     background-color:  #C4C4C4;
   }
-  
+  /* original picture by https://unsplash.com/@sushioutlaw */
   .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
-    height: 50%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/hero_image_bn.jpg");
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
   }
