@@ -4,8 +4,9 @@
     border: 0;
     font-size: 100%;
     box-sizing: border-box; 
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     outline: none;
+    text-decoration: none;
   }
   /* alcune regole personali */
 
@@ -14,9 +15,6 @@
   }
 
   /* fine */
-  a{
-      text-decoration: none;
-  }
 
   .top-nav{
     position: fixed;
@@ -37,11 +35,11 @@
     align-items: center;
   }
 
-  .nav-a a{
+  .nav-a a, .text a{
     color: black;
     margin-left: 20px;
   }
-  .nav-a a:hover{
+  .nav-a a:hover,  .text a:hover{
     color: rgb(53, 53, 53);
   }
   
@@ -57,9 +55,43 @@
   }
   /* original picture by https://unsplash.com/@sushioutlaw */
   .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/hero_image_bn.jpg");
+    background-image: url("img/hero_image_bn.jpg");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .section{
+    padding: 50px;
+  }
+  .categories{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .card-book{
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    background-color: #C4C4C4;
+    margin-bottom: 20px;
+  }
+  /* original picture by https://unsplash.com/@anneliesgeneyn */
+  .image-book{
+    width:100%;
+    height: 400px;
+    background-image: url("img/image-book-bn.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+  }
+  .image-book a{
+    color: white;
+  }
+  .image-book a:hover{
+    color: rgba(255, 255, 255, 0.822);
+  }
+  .text{
+    padding: 50px;
+  }
+  
