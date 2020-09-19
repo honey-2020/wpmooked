@@ -9,11 +9,9 @@
     text-decoration: none;
   }
   /* alcune regole personali */
-
   .pad-l{
     padding-left: 20px;
   }
-
   /* fine */
 
   .top-nav{
@@ -29,6 +27,7 @@
 
     background-color: #C4C4C4;
     font-size: 20px;
+    box-shadow: 0px 4px 48px rgba(0, 0, 0, 0.13);
   }
   .link-nav{
     display: flex; 
@@ -41,15 +40,22 @@
   }
   .nav-a a:hover,  .text a:hover{
     color: rgb(53, 53, 53);
+    transition: 0.5s ease;
   }
   #nav-a-active{
     background-color: black;
     color:white;
     padding: 10px;
+    border-radius: 10px;
+  }
+  #nav-a-active:hover{
+    opacity: 0.8;
+    transition: 0.5s ease;
   }
   
   .search-bar input[type=text] {
     padding: 6px;
+    border-radius: 10px;
   }
   .search-bar button{
     padding: 6px 10px;
@@ -100,10 +106,12 @@
     background-color: #C4C4C4;
     padding: 10px 15px;
     color: black;
+    border-radius: 10px;
   }
   .categories-link a:hover{
     background-color:black;
     color: white;
+    transition: 0.5s ease;
   }
   .categories-link a.active{
     background-color: black;
@@ -140,6 +148,7 @@
   }
   .image-book a:hover, .image-moovie a:hover{
     color: rgba(255, 255, 255, 0.822);
+    transition: 0.5s ease;
   }
   .text{
     padding: 50px;
@@ -150,10 +159,12 @@
     text-align: center;
     color: black;
     cursor: pointer;
+    border-radius: 10px;
   }
   .button:hover{
     background-color:black;
     color:white;
+    transition: 0.5s ease;
   }
   
   .center{
