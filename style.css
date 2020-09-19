@@ -69,7 +69,15 @@
     text-align: center;
     margin-bottom: 50px;
   }
-  .card-book{
+  .categories-link a{
+    background-color: #C4C4C4;
+    padding: 10px 15px;
+    color: black;
+  }
+  .categories-link a:hover{
+    background-color: #c4c4c4b9;
+  }
+  .card-book, .card-moovie{
     display: grid;
     grid-template-columns: 3fr 5fr;
     background-color: #C4C4C4;
@@ -85,13 +93,44 @@
     background-size: cover;
     padding: 50px;
   }
-  .image-book a{
+  /* original picture by https://unsplash.com/@charlesdeluvio */
+  .image-moovie{
+    width:100%;
+    height: 400px;
+    background-image: url("img/image-moovie-bn.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+  }
+  .image-book a, .image-moovie a{
     color: white;
   }
-  .image-book a:hover{
+  .image-book a:hover, .image-moovie a:hover{
     color: rgba(255, 255, 255, 0.822);
   }
   .text{
     padding: 50px;
   }
+  .button{
+    background-color: #C4C4C4;
+    padding: 10px 15px;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+  }
+  .button:hover{
+    background-color: #c4c4c4b9;
+  }
   
+  .center{
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  footer{
+    padding: 30px 30px;
+    display: flex;
+    justify-content: center;
+    background-color: #C4C4C4;
+  }
