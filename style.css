@@ -42,6 +42,11 @@
   .nav-a a:hover,  .text a:hover{
     color: rgb(53, 53, 53);
   }
+  #nav-a-active{
+    background-color: black;
+    color:white;
+    padding: 10px;
+  }
   
   .search-bar input[type=text] {
     padding: 6px;
@@ -55,11 +60,33 @@
   }
   /* original picture by https://unsplash.com/@sushioutlaw */
   .hero-image {
-    background-image: url("img/hero_image_bn.jpg");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .home{
+    background-image: url("img/hero_image_bn.jpg");
+  }
+  /* original background picture by https://unsplash.com/@anneliesgeneyn */
+  .book-article{
+    background-image: url("img/image-book-bn.jpg");
+    height: 80vh;
+  }
+  /* original background picture by https://unsplash.com/@charlesdeluvio */
+  .moovie-article{
+    background-image: url("img/image-moovie-bn.jpg");
+    height: 80vh;
+  }
+  /* original picture by https://unsplash.com/@dallehj */
+  .not-found{
+    background-image: url("img/image-not-found-bn.jpg");
+    height: 100vh;
+  }
+  /* original picture by https://unsplash.com/@dallehj */
+  .archive{
+    background-image: url("img/image-archive-bn.jpg");
+    height: 100vh;
   }
 
   .section{
@@ -75,7 +102,12 @@
     color: black;
   }
   .categories-link a:hover{
-    background-color: #c4c4c4b9;
+    background-color:black;
+    color: white;
+  }
+  .categories-link a.active{
+    background-color: black;
+    color: white;
   }
   .card-book, .card-moovie{
     display: grid;
@@ -120,17 +152,45 @@
     cursor: pointer;
   }
   .button:hover{
-    background-color: #c4c4c4b9;
+    background-color:black;
+    color:white;
   }
   
   .center{
     text-align: center;
     padding-top: 30px;
   }
-
+  .vertical-center{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
   footer{
     padding: 30px 30px;
     display: flex;
     justify-content: center;
     background-color: #C4C4C4;
+  }
+
+  /* article.html */
+  .article{
+    padding: 0px 50px 0px 50px;
+  }
+
+  .text-container{
+    text-align: justify;
+  }
+  .title-article, .date-article{
+    line-height: 2em;
+  }
+  .title-article{
+    font-size: 1.5em;}
+
+  /* 404.html */
+  .error-message{
+    display: block;
+    padding: 50px;
   }
